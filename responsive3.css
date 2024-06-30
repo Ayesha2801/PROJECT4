@@ -122,9 +122,9 @@
     }
 }
 
-@media only screen and (min-width:360px) and (max-width:575px) {
+@media only screen and (min-width:300px) and (max-width:575px) {
     .navigation {
-        width: 365%;
+        width: 397%;
     }
 
     .nav1 {
@@ -183,7 +183,7 @@
     }
 
     div#popup {
-        width: 365%;
+        width: 397%;
         height: 700px;
     }
 
@@ -192,15 +192,15 @@
     }
 
     .make {
-        width: 365%;
+        width: 397%;
     }
 
     .photo {
-        width: 365%;
+        width: 397%;
     }
 
     .sec {
-        width: 365%;
+        width: 397%;
     }
 
     .buy {
@@ -220,7 +220,7 @@
     }
 
     .footer {
-        width: 365%;
+        width: 397%;
         height: 130pc;
     }
 

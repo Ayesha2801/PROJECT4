@@ -258,9 +258,9 @@
     }
 }
 
-@media only screen and (min-width:360px) and (max-width:575px) {
+@media only screen and (min-width:300px) and (max-width:575px) {
     .navigation {
-        width: 365%;
+        width: 397%;
     }
 
     .nav1 {
@@ -320,7 +320,7 @@
     }
 
     div#popup {
-        width: 365%;
+        width: 397%;
         height: 700px;
     }
 
@@ -329,7 +329,7 @@
     }
 
     .banner {
-        width: 365%;
+        width: 397%;
     }
 
     .ban {
@@ -345,7 +345,7 @@
     }
 
     .spot {
-        width: 365%;
+        width: 397%;
         display: flex;
         flex-direction: column;
     }
@@ -356,7 +356,7 @@
     }
 
     .ban1 {
-        width: 365%;
+        width: 397%;
     }
 
     .section3 {
@@ -364,7 +364,7 @@
     }
 
     .launch {
-        width: 365%;
+        width: 397%;
         display: flex;
         flex-direction: column;
         margin: 0;
@@ -380,7 +380,7 @@
     }
 
     .sell {
-        width: 365%;
+        width: 397%;
         display: flex;
         flex-direction: column;
         margin: 0;
@@ -392,7 +392,7 @@
     }
 
     .pay {
-        width: 365%;
+        width: 397%;
     }
 
     .img15 {
@@ -400,7 +400,7 @@
     }
 
     .face {
-        width: 365%;
+        width: 397%;
         display: flex;
         flex-direction: column;
     }
@@ -415,7 +415,7 @@
     }
 
     .watch {
-        width: 365%;
+        width: 397%;
         display: flex;
         flex-direction: column;
     }
@@ -439,11 +439,11 @@
     }
 
     .beware {
-        width: 365%;
+        width: 397%;
     }
 
     .video1 {
-        width: 365%;
+        width: 397%;
     }
 
     .web {
@@ -455,7 +455,7 @@
     }
 
     .footer {
-        width: 365%;
+        width: 397%;
         height: 130pc;
     }
 
