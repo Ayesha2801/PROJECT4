@@ -1,55 +1,69 @@
-@media only screen and (min-width:992px) and (max-width:1200px) {
+@media only screen and (min-width:992px) and (max-width:1360px) {
     .navigation {
-        width: 133%;
+        width: 100%;
     }
 
     div#popup {
-        width: 133%;
+        width: 100%;
     }
 
     .make {
-        width: 133%;
+        width: 100%;
     }
 
     .photo {
-        width: 133%;
+        width: 100%;
     }
 
     .footer {
-        width: 133%;
+        width: 100%;
+    }
+
+    .foot {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
 @media only screen and (min-width:769px) and (max-width:991px) {
     .navigation {
-        width: 171%;
+        width: 100%;
+    }
+
+    .find{
+        width: 75%;
     }
 
     div#popup {
-        width: 171%;
+        width: 100%;
     }
 
     .make {
-        width: 171%;
+        width: 100%;
     }
 
     .photo {
-        width: 171%;
+        width: 100%;
     }
 
     .footer {
-        width: 171%;
+        width: 100%;
+    }
+
+    .foot {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
 @media only screen and (min-width:576px) and (max-width:768px) {
     .navigation {
-        width: 229%;
+        width: 100%;
     }
 
     .nav1 {
         font-size: 20px;
-        height: 60px;
+        height: auto;
     }
 
     .lit {
@@ -61,7 +75,7 @@
     }
 
     .nav2 {
-        height: 80px;
+        height: auto;
     }
 
     .logo {
@@ -71,6 +85,7 @@
 
     .find {
         font-size: 18px;
+        width: 65%;
     }
 
     .div {
@@ -78,23 +93,32 @@
     }
 
     div#popup {
-        width: 229%;
+        width: 100%;
     }
 
     .make {
-        width: 229%;
+        width: 100%;
     }
 
     .photo {
-        width: 229%;
+        width: 100%;
     }
 
     .footer {
-        width: 229%;
+        width: 100%;
+    }
+
+    .foot {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .LIP {
         font-size: 18px;
+    }
+
+    .sub {
+        flex-direction: column;
     }
 
     .text {
@@ -108,16 +132,22 @@
     .stay {
         font-size: 20px;
     }
+
+    .connect {
+        gap: 30px;
+    }
 }
 
 @media only screen and (min-width:300px) and (max-width:575px) {
     .navigation {
-        width: 397%;
+        width: 100%;
     }
 
     .nav1 {
         font-size: 30px;
-        height: 100px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
     }
 
     .fa-gift {
@@ -127,10 +157,6 @@
 
     .lit {
         width: 45%;
-    }
-
-    .shop{
-        width: 400px;
     }
 
     .fa-store {
@@ -144,7 +170,10 @@
     }
 
     .nav2 {
-        height: 120px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
     }
 
     .logo {
@@ -155,7 +184,7 @@
     .find {
         font-size: 30px;
         height: 70px;
-        width: 600px;
+        width: 100%;
     }
 
     .fa-magnifying-glass {
@@ -171,7 +200,7 @@
     }
 
     div#popup {
-        width: 397%;
+        width: 100%;
         height: 700px;
     }
 
@@ -180,11 +209,20 @@
     }
 
     .make {
-        width: 397%;
+        width: 100%;
+    }
+
+    .down{
+        width: 100%;
     }
 
     .photo {
-        width: 397%;
+        width: 100%;
+    }
+
+    .my {
+        display: flex;
+        flex-direction: column;
     }
 
     .all {
@@ -221,8 +259,13 @@
     }
 
     .footer {
-        width: 397%;
+        width: 100%;
         height: 130pc;
+    }
+
+    .foot {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .LIP {
@@ -239,7 +282,7 @@
 
     input.text {
         height: 60px;
-        width: 500px;
+        width: 100%;
         font-size: 30px;
     }
 

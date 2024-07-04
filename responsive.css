@@ -1,62 +1,95 @@
-@media only screen and (min-width:992px) and (max-width:1200px) {
+@media only screen and (min-width:992px) and (max-width:1360px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    span {
+        width: 100%;
+    }
+
     .navigation {
-        width: 133%;
+        width: 100%;
     }
 
     div#popup {
-        width: 133%;
+        width: 100%;
     }
 
     .banner {
-        width: 133%;
+        width: 100%;
     }
 
     .spot {
-        width: 133%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
     .ban1 {
-        width: 133%;
+        width: 100%;
     }
 
     .launch {
-        width: 133%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin: 0;
     }
 
+    .super {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 3%;
+    }
+
     .sell {
-        width: 133%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin: 0;
     }
 
     .pay {
-        width: 133%;
+        width: 100%;
+    }
+
+    .cat {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
     }
 
     .face {
-        width: 133%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
     .watch {
-        width: 133%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
+    .video {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
     .beware {
-        width: 133%;
+        width: 100%;
     }
 
     .video1 {
-        width: 133%;
+        width: 100%;
     }
 
     .brand {
@@ -64,69 +97,103 @@
     }
 
     .footer {
-        width: 133%;
+        width: 100%;
     }
 }
 
 @media only screen and (min-width:769px) and (max-width:991px) {
+    .wrapper {
+        width: 100%;
+    }
+
     .navigation {
-        width: 171%;
+        width: 100%;
+    }
+
+    .find {
+        width: 400px;
     }
 
     div#popup {
-        width: 171%;
+        width: 100%;
     }
 
     .banner {
-        width: 171%;
+        width: 100%;
     }
 
     .spot {
-        width: 171%;
+        width: 100%;
         display: flex;
         flex-direction: column;
+    }
+
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 5%;
     }
 
     .ban1 {
-        width: 171%;
+        width: 100%;
     }
 
     .launch {
-        width: 171%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin: 0;
+    }
+
+    .super {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 3%;
     }
 
     .sell {
-        width: 171%;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        margin: 0;
+        margin: 0%;
     }
 
     .pay {
-        width: 171%;
+        width: 100%;
+    }
+
+    .cat {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
     }
 
     .face {
-        width: 171%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
     .watch {
-        width: 171%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
     .beware {
-        width: 171%;
+        width: 100%;
+    }
+
+    .video {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
     }
 
     .video1 {
-        width: 171%;
+        width: 100%;
     }
 
     .brand {
@@ -134,18 +201,27 @@
     }
 
     .footer {
-        width: 171%;
+        width: 100%;
+    }
+
+    .foot {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
 @media only screen and (min-width:576px) and (max-width:768px) {
+    .wrapper {
+        width: 100%;
+    }
+
     .navigation {
-        width: 229%;
+        width: 100%;
     }
 
     .nav1 {
         font-size: 20px;
-        height: 60px;
+        height: auto;
     }
 
     .lit {
@@ -157,7 +233,14 @@
     }
 
     .nav2 {
-        height: 80px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .find {
+        width: 400px;
     }
 
     .logo {
@@ -174,7 +257,7 @@
     }
 
     div#popup {
-        width: 229%;
+        width: 100%;
     }
 
     .nav3 {
@@ -182,55 +265,81 @@
     }
 
     .banner {
-        width: 229%;
+        width: 100%;
     }
 
     .spot {
-        width: 229%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 5%;
+    }
+
     .ban1 {
-        width: 229%;
+        width: 100%;
     }
 
     .launch {
-        width: 229%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin: 0;
     }
 
+    .super {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 3%;
+    }
+
     .sell {
-        width: 229%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin: 0;
     }
 
     .pay {
-        width: 229%;
+        width: 100%;
+    }
+
+    .cat {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
     }
 
     .face {
-        width: 229%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
     .watch {
-        width: 229%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
     .beware {
-        width: 229%;
+        width: 100%;
+    }
+
+    .video {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
     }
 
     .video1 {
-        width: 229%;
+        width: 100%;
     }
 
     .brand {
@@ -238,7 +347,12 @@
     }
 
     .footer {
-        width: 229%;
+        width: 100%;
+    }
+
+    .foot {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .LIP {
@@ -256,16 +370,27 @@
     .stay {
         font-size: 20px;
     }
+
+    .sub {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (min-width:300px) and (max-width:575px) {
+    .wrapper {
+        width: 100%;
+    }
+
     .navigation {
-        width: 397%;
+        width: 100%;
     }
 
     .nav1 {
         font-size: 30px;
-        height: 100px;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     .fa-gift {
@@ -278,7 +403,7 @@
     }
 
     .shop {
-        width: 400px;
+        width: 100%;
     }
 
     .fa-store {
@@ -292,7 +417,11 @@
     }
 
     .nav2 {
-        height: 120px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        row-gap: 20px;
     }
 
     .logo {
@@ -303,7 +432,7 @@
     .find {
         font-size: 30px;
         height: 70px;
-        width: 600px;
+        width: 100%;
     }
 
     .fa-magnifying-glass {
@@ -320,7 +449,7 @@
     }
 
     div#popup {
-        width: 397%;
+        width: 100%;
         height: 700px;
     }
 
@@ -329,7 +458,7 @@
     }
 
     .banner {
-        width: 397%;
+        width: 100%;
     }
 
     .ban {
@@ -337,26 +466,35 @@
     }
 
     .section1 {
-        height: 550px;
+        height: 200px;
     }
 
     .section2 {
-        height: 550px;
+        height: 200px;
     }
 
     .spot {
-        width: 397%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
+    .card,
+    .card1 {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 5%;
+        width: 100%;
+    }
+
     .light {
         font-size: 40px;
-        width: 350px;
+        width: 100%;
     }
 
     .ban1 {
-        width: 397%;
+        width: 100%;
     }
 
     .section3 {
@@ -364,15 +502,29 @@
     }
 
     .launch {
-        width: 397%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin: 0;
     }
 
+    .super {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 3%;
+    }
+
+    .off,
+    .range1,
+    .range2 {
+        width: 100%;
+        height: auto;
+    }
+
     .late {
         font-size: 40px;
-        width: 570px;
+        width: 100%;
     }
 
     .upto {
@@ -380,7 +532,7 @@
     }
 
     .sell {
-        width: 397%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin: 0;
@@ -388,11 +540,17 @@
 
     .best {
         font-size: 40px;
-        width: 350px;
+        width: 100%;
     }
 
     .pay {
-        width: 397%;
+        width: 100%;
+    }
+
+    .cat {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
     }
 
     .img15 {
@@ -400,14 +558,14 @@
     }
 
     .face {
-        width: 397%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
     .category {
         font-size: 40px;
-        width: 550px;
+        width: 100%;
     }
 
     h4 {
@@ -415,14 +573,20 @@
     }
 
     .watch {
-        width: 397%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
 
+    .video {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
     .look {
         font-size: 40px;
-        width: 450px;
+        width: 100%;
     }
 
     .show {
@@ -439,15 +603,15 @@
     }
 
     .beware {
-        width: 397%;
+        width: 100%;
     }
 
     .video1 {
-        width: 397%;
+        width: 100%;
     }
 
     .web {
-        height: 800px;
+        height: 950px;
     }
 
     .brand {
@@ -455,12 +619,17 @@
     }
 
     .footer {
-        width: 397%;
-        height: 130pc;
+        width: 100%;
+        height: auto;
+    }
+
+    .foot {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .LIP {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .sub {
@@ -471,9 +640,13 @@
         font-size: 40px;
     }
 
+    .mail {
+        width: 100%;
+    }
+
     input.text {
         height: 60px;
-        width: 500px;
+        width: 100%;
         font-size: 30px;
     }
 
@@ -485,6 +658,7 @@
 
     .stay {
         font-size: 40px;
+        width: 190px;
     }
 
     .fa-instagram,
