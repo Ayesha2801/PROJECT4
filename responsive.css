@@ -380,9 +380,6 @@
     .wrapper {
         width: 100%;
     }
-    *{
-        outline: 1px solid red;
-    }
 
     .navigation {
         width: 100%;
