@@ -414,6 +414,9 @@ a {
 
     .hamburger-icon {
         display: block;
+        position: absolute;
+        right: 0;
+        top: 10px;
     }
 
     header:has(.hamburger-icon input[type="checkbox"]) .fa-x {
