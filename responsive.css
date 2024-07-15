@@ -380,6 +380,9 @@
     .wrapper {
         width: 100%;
     }
+    *{
+        outline: 1px solid red;
+    }
 
     .navigation {
         width: 100%;
@@ -423,6 +426,10 @@
 
     .div {
         font-size: 20px;
+    }
+
+    #popup{
+        display: none;
     }
 
     .banner {
@@ -597,7 +604,7 @@
     }
 
     .LIP {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .sub {
@@ -634,6 +641,16 @@
     .fa-pinterest-p,
     .fa-youtube {
         font-size: 60px;
+    }
+
+    .connect {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .app{
+        text-align: center;
     }
 
     .mobile {

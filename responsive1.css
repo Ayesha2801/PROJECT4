@@ -234,6 +234,10 @@
         width: 67%;
     }
 
+    #popup{
+        display: none;
+    }
+
     .fa-bag-shopping,
     .fa-user {
         font-size: 0px;

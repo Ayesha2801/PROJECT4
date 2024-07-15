@@ -235,6 +235,10 @@
         font-size: 0px;
     }
 
+    #popup{
+        display: none;
+    }
+
     .nav3 {
         font-size: 20px;
     }

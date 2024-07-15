@@ -30,7 +30,7 @@
         width: 100%;
     }
 
-    .find{
+    .find {
         width: 75%;
     }
 
@@ -173,8 +173,13 @@
         width: 67%;
     }
 
-    .fa-bag-shopping, .fa-user {
+    .fa-bag-shopping,
+    .fa-user {
         font-size: 0px;
+    }
+
+    #popup {
+        display: none;
     }
 
     .nav3 {
@@ -185,7 +190,7 @@
         width: 100%;
     }
 
-    .down{
+    .down {
         width: 100%;
     }
 
@@ -249,7 +254,7 @@
         flex-direction: column;
     }
 
-    .email{
+    .email {
         font-size: 40px;
     }
 
@@ -269,7 +274,10 @@
         font-size: 40px;
     }
 
-    .fa-instagram, .fa-twitter, .fa-pinterest-p, .fa-youtube {
+    .fa-instagram,
+    .fa-twitter,
+    .fa-pinterest-p,
+    .fa-youtube {
         font-size: 60px;
     }
 
