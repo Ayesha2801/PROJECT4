@@ -518,11 +518,10 @@ a {
 
 .space1:hover .cont {
     transform: scale(1);
-    opacity: 1;
 }
 
-.space1:hover .meta {
-    transform: scale(0) rotate(100deg);
+.space1:hover .meta{
+    transform: scale(0);
 }
 
 .space2 {
@@ -548,11 +547,10 @@ a {
 
 .space2:hover .cont {
     transform: scale(1);
-    opacity: 1;
 }
 
-.space2:hover .meta {
-    transform: scale(0) rotate(100deg);
+.space2:hover .meta{
+    transform: scale(0);
 }
 
 .space3 {
@@ -578,11 +576,10 @@ a {
 
 .space3:hover .cont {
     transform: scale(1);
-    opacity: 1;
 }
 
-.space3:hover .meta {
-    transform: scale(0) rotate(100deg);
+.space3:hover .meta{
+    transform: scale(0);
 }
 
 .meta {
@@ -601,12 +598,10 @@ a {
     height: 300px;
     position: absolute;
     transition: all .5s ease-in-out;
-    transition-delay: .2s;
     background-color: #f5abdb;
     color: #000;
     box-sizing: border-box;
     transform: scale(0);
-    opacity: 0;
 }
 
 s {
